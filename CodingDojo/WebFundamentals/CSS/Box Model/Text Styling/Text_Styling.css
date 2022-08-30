@@ -1,0 +1,26 @@
+#cls1 {
+    background-color: black;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+}
+
+#cls2 {
+    background-color: #663399;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+
+}
+
+#cls3 {
+    background-color: #9fc5f8;
+    color: #20124d;
+    text-align: end;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 5px;
+
+}
