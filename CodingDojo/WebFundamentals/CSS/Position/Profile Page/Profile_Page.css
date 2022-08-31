@@ -1,3 +1,12 @@
+/* -----------------------BODY OF THE PAGE----------------------- */
+.page{
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-right: 250px;
+    padding-top: 20px;
+}
+/* -----------------------HEADER----------------------- */
 .head{
     background-color: black;
     color: white;
@@ -26,8 +35,106 @@ margin-inline: 15px;
 }
 button{
     background-color: #17a2b8;
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 40px;
     font-weight: bold;
     color: white;
+}
+/* -----------------------COLUMN1----------------------- */
+.container1{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-right:10px;
+}
+.main{
+    background-color: #17a2b8;
+    height: 85px;
+}
+.sub{
+padding: 20px;
+border: 3px solid silver;
+}
+.pic{
+    height: 85px;
+    width: 85px;
+    margin-left: 20px;
+    border-radius: 70px;
+    border: 3px solid silver;
+    margin-top: 35px;
+}
+/* -----------------------EDUCATION----------------------- */
+.main1{
+    background-color: #333333;
+    color: white;
+    padding: 12px;  
+    padding-left: 20px;  
+    font-size: large;
+}
+/* .education{
+    border: 3px solid silver;
+} */
+.interval{
+    padding-left: 20px;
+    color:rgb(156, 155, 155);
+}
+/* -----------------------USERCARD----------------------- */
+.usercard{
+    /* border: 3px solid silver; */
+    margin-bottom: 20px;
+}
+/* -----------------------COLUMN2----------------------- */
+.container2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+
+}
+.main2{
+    background-color: #333333;
+    color: white;
+    padding: 12px;  
+    font-size: large;
+    display: flex;
+    }
+.row1{
+    /* border: 3px solid silver; */
+    flex: 1;
+    margin-bottom: 20px;    
+}
+.row2{
+    /* border: 3px solid silver; */
+    flex: 2;
+    margin-bottom: 20px;
+}
+.circle{
+    background-color:#cccccc;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right:45px;
+    text-align: center;
+    color: black;
+    font-size: auto;
+}
+.circle1{
+    background-color:#cccccc;
+    width: 40px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right:45px;
+    text-align: center;
+    color: black;
+    font-size: auto;
+}
+.image{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+}
+.requests{
+    border: 3px solid silver;
+    display: flex;
+    flex-direction: column;
 }
