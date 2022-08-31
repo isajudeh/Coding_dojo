@@ -157,7 +157,19 @@ border: 3px solid silver;
 .name{
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 .name p{
 padding-left: 10px;
+}
+.name img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.requests1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 20px;
 }
