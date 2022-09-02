@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* the header */
+header{
+    background-color: #cccccc;
+    color: black;
+    display: flex;
+    margin: 0 250px;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+[type=text]{
+    height: 20px;
+    width: 300px;
+    border: 2px solid black;
+}
+button{
+    height: 25px ;
+    width: 60px;
+    box-shadow: 4px 4px 4px black;
+    color: white;
+    background-color: #2b78e4;
+}
+/* the body */
+.container{
+margin: 26px 250px;
+display: flex;
+}
+/* the lift side */
+.col1{
+
+    display: flex;
+    flex: 2;
+    margin-right: 13px;
+    flex-direction: column;
+}
+.row1{
+    border: 2px solid black;
+    margin-bottom: 26px;
+    padding: 26px;
+}
+/* the right side */
+.col2{
+    display: flex;
+    flex: 1;
+    margin-left: 13px;
+    flex-direction: column;
+}
+.row2{
+    border: 2px solid black;
+    margin-bottom: 26px;
+    padding: 26px;
+}
