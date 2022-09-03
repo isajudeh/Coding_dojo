@@ -15,19 +15,48 @@
             <input type="text" name="name" placeholder="Search" >
         </dvi>
         <dvi>
-            <button>Login</button>
+            <button onclick="logout(this)" class="login">Login</button>
         </dvi>
     </header>
     <!-- the body -->
     <div class="container">
         <!-- the left side -->
         <div class="col1">
-            <div class="row1"></div>
-            <div class="row1"></div>
+            <div class="row1">
+                <div class="row11">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>plural: ninjas</p>
+                    <br>
+                    <button onclick="alert('Ninja was liked')" class="likes">13 likes</button>
+                </div>
+                <div class="row12">
+                    <p>A practitioner skiled in the <br>
+                        <a href="google.com"> Japanese </a> art of <a href="google.com"> ninjustu </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="row11">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>plural: ninjas</p>
+                    <br>
+                    <button onclick="alert('Ninja was liked')" class="likes">37 likes</button>
+                </div>
+                <div class="row12">
+                    <p>A <a href="google.com">programmer</a> who breaks <br>
+                    down problems with <a href="google.com">Zen</a>-likes <br>
+                    focus</p>
+                </div>
+            </div>
         </div>
         <!-- the right side -->
         <div class="col2">
-            <div class="row2"></div>
+            <div class="row2">
+                <h1 style="padding-bottom: 13px;">Dojonary is defined by YOU</h1>
+                <button onclick="remove(this)" class="likes1">Add Definition</button>
+            </div>
         </div>
     </div>
     <script src="Button_Clicker.js"></script>

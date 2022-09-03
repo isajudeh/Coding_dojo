@@ -7,7 +7,7 @@ header{
     background-color: #cccccc;
     color: black;
     display: flex;
-    margin: 0 250px;
+    margin: 0 300px;
     padding: 15px;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +20,7 @@ header{
     width: 300px;
     border: 2px solid black;
 }
-button{
+.login{
     height: 25px ;
     width: 60px;
     box-shadow: 4px 4px 4px black;
@@ -29,21 +29,44 @@ button{
 }
 /* the body */
 .container{
-margin: 26px 250px;
+margin: 26px 300px;
 display: flex;
 }
-/* the lift side */
+/* the left side */
 .col1{
 
     display: flex;
-    flex: 2;
+    flex: 1.7;
     margin-right: 13px;
     flex-direction: column;
 }
 .row1{
     border: 2px solid black;
     margin-bottom: 26px;
-    padding: 26px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.row11{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.row12{
+    display: flex;
+    flex: 4;
+    justify-content: center;
+    align-items: center;
+}
+.likes{
+    height: 30px ;
+    box-shadow: 4px 4px 4px black;
+    color: black;
+    background-color: #ffd966;
+    width: 100px;
+    font-weight: bold;
 }
 /* the right side */
 .col2{
@@ -55,5 +78,13 @@ display: flex;
 .row2{
     border: 2px solid black;
     margin-bottom: 26px;
-    padding: 26px;
+    padding: 20px;
+}
+.likes1{
+    height: 30px ;
+    box-shadow: 4px 4px 4px black;
+    color: black;
+    background-color: #93c47d;
+    width: 230px;
+    font-weight: bold;
 }
