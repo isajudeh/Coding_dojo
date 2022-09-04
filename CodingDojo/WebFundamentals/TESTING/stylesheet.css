@@ -1,16 +1,5 @@
-.block {
-    height: 50px;
-    width: 200px;
-    background-color: silver;
-    border: 1px dotted black;
-}
-.block1 {
-    background-color: rgb(182, 35, 35);
-    height: 100px;
-    width: 100px;
-}
-.block2 {
-    background-color: rgb(35, 57, 182);
-    height: 5000px;
-    width: 300px;
+#count{
+    background-color:blueviolet;
+    color: aliceblue;
+    padding: 10px;
 }

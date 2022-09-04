@@ -1,11 +1,7 @@
-function over(element) {
-    element.classList.add("block1");
-}
-    
-function out(element) {
-    alert("mouseout");    
-}
+var count=1;
+var countElement= document.querySelector("p");
 
-function change(element){
-    element.classList.add("block2");
+function add(){
+    count++;
+    countElement.innerText = "The Count is "+ count;
 }
