@@ -1,7 +1,7 @@
-var count=1;
-var countElement= document.querySelector("p");
-
-function add(){
-    count++;
-    countElement.innerText = "The Count is "+ count;
+var colors = document.querySelectorAll(".color");
+    
+function applyColors(){
+    for(var i=0; i<colors.length; i++) {
+        colors[i].style.color = colors[i].innerText;
+    }
 }
