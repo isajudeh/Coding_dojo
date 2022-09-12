@@ -8,10 +8,12 @@ function press(x){
     displayDiv.innerText = firstInput;
     return(parseFloat(firstInput));
 }
+
 function setOP(y){
+    displayDiv.innerText = '';
     if (y=='/'){
-        parseFloat(a= 5/press()) ;
-        displayDiv.innerText = a;
+        // parseFloat(a= 5/press()) ;
+        displayDiv.innerText = press();
     }
     else if(y=='*'){
         var a= 5*press();
