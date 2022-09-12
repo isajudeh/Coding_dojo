@@ -24,9 +24,9 @@
 #     print(x)
 #     x=x-4
 # # ######################## #
-int lowNum
-int highNum
-int mult
+int (lowNum)
+int (highNum)
+int (mult)
 for x in range(lowNum,highNum):
     if x%mult==0:
         print(x)
