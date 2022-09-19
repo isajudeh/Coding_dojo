@@ -1,6 +1,3 @@
-import re
-
-
 class BankAccount:
     def __init__(self,int_rate,balance):
         self.int_rate=int_rate
