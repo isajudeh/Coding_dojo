@@ -18,7 +18,7 @@ class BankAccount:
         if self.balance > 0:
             self.int_rate*self.balance
         return self
-
+    
 
 # isa=BankAccount(0.01,10000)
 # judeh=BankAccount(0.01,20000)

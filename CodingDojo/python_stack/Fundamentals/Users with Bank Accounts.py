@@ -20,5 +20,5 @@ class user:
 
 lolo=user('ISA','isajudeh@yahoo.com','saver')
 zozo=user('momo','koko@gmail.com','transfer')
-lolo.make_withdrawal(200,'saver')
+lolo.make_deposite(200,'saver')
 print(lolo.display_user_balance('saver'))

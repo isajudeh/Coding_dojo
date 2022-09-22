@@ -2,7 +2,7 @@ class user:
     def __init__(self,name,email):
         self.name=name
         self.email=email
-        self.account=0
+        self.account_balance=0
     def make_withdrawal(self,amount):
         self.account_balance -= amount
     def display_user_balance(self):
