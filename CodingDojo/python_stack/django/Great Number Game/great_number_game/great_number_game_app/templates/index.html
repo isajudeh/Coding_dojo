@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action='/result' method='post'>
+        {% csrf_token %}
+        <h1>Welcome to the Great Number Game!</h1>
+        <p>I am thinking of a number between 1 and 100</p>
+        <p>Take a gusee!</p>
+        {% if request.session.result == "correct" %}
+        <div><p>you win</p></div>
+        {% elif request.session.result == "to low" %}
+            <p>to low</p>
+        {% elif request.session.result == "to high" %}
+            <p>to high </p>
+            {%endif%} 
+        <input type='number' name='gusee'>
+       
+        <button type='submit'>Submit</button>
+          
+    </form>
+    <h2>{{ request.session.computer}}</h2>
+</body>
+</html>

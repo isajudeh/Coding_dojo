@@ -1,0 +1,9 @@
+<form action='/result' method='post'>
+    {% csrf_token %}
+    <h1>Welcome to the Great Number Game!</h1>
+    <p>I am thinking of a number between 1 and 100</p>
+    <p>Take a gusee!</p>
+    {{play}}
+    <input type='number' name='gusee'>
+    <button type='submit'>Submit</button>
+</form>

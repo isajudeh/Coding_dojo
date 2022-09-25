@@ -3,5 +3,5 @@ from . import views
                     
 urlpatterns = [
     path('', views.index),
-    path('destroy_session',views.clear)
+    path('result', views.play),
 ]
