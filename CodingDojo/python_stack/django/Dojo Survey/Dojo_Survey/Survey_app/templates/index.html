@@ -1,0 +1,17 @@
+<form action='/result' method='post'>
+    {% csrf_token %}
+    Your Name: <input type='text' name='name'>
+    Dojo Location: <select name="Location">
+        <option>San Jose</option>
+        <option>Palestine</option>
+        <option>Jordan</option>
+    </select>
+    Favorite Language: <select name="Language">
+        <option>Python</option>
+        <option>Java</option>
+        <option>C++</option>
+    </select>
+    Comment (optional):
+    <textarea name="comment" cols="20" rows="3"></textarea>
+    <button type='submit'>Button</button>
+</form>
