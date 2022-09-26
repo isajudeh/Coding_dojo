@@ -13,7 +13,7 @@
         <p>I am thinking of a number between 1 and 100</p>
         <p>Take a gusee!</p>
         {% if request.session.result == "correct" %}
-        <div><p>you win</p></div>
+        <p>you win</p>
         {% elif request.session.result == "to low" %}
             <p>to low</p>
         {% elif request.session.result == "to high" %}
