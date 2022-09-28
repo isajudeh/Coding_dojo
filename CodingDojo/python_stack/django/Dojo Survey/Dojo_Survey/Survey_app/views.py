@@ -8,7 +8,7 @@ def create_user(request):
     location_from_form = request.POST['Location']
     language_from_form= request.POST['Language']
     comment_from_form= request.POST['comment']
-    context = {
+    context = {x
     	"name_on_template" : name_from_form,
     	"location_on_template" : location_from_form,
         "language_on_template" : language_from_form,
