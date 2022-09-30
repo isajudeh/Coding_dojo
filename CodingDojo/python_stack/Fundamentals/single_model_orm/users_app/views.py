@@ -6,7 +6,7 @@ def index(request):
     context = {
     	"all_the_users": User.objects.all()
     }
-    return render(request, "index.html", context)
+    return render(request,"index.html", context)
 
 
 
