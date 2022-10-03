@@ -8,6 +8,9 @@
 </head>
 <body>
     <h1>Add a Dojo</h1>
+
+
+
     <form action='/result1' method='post'>
         {% csrf_token %}
         Name: <input type='text' name='name'>
@@ -16,6 +19,9 @@
         <button type='submit'>Add</button>
     </form>
     <h1>Add a Ninja</h1>
+
+
+
     <form action='/result2' method='post'>
         {% csrf_token %}
         First Name: <input type='text' name='first_name'>
@@ -30,6 +36,9 @@
     <hr>  
     <h1>All The Dojos</h1>
 
+
+
+    
     {% for names in all_the_dojo_names %}
     <ul>
     <li> Ninjas at the {{ names.name }} Dojo </li>
