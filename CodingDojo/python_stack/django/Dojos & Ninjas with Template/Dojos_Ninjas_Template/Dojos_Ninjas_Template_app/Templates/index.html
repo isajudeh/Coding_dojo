@@ -42,7 +42,7 @@
     {% for names in all_the_dojo_names %}
     <ul>
     <li> Ninjas at the {{ names.name }} Dojo </li>
-        {% for names in all_the_ninja_names %}
+        {% for names in names.ninja.all %}
         <ul>
         <li> {{ names.first_name }} {{ names.last_name }} </li>
         </ul>
