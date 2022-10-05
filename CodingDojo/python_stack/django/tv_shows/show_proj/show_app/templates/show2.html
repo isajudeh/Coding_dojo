@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+</head>
+<body>
+    <h1>Add a New Show</h1>
+    <form action='/showss' method='post'>
+        {% csrf_token %}
+        Title <br>
+        <input type='text' name='title'><br><br>
+        Network <br>
+        <input type='text' name='network'><br><br>
+        Release Date <br>
+        <input type='date' name='release_date'><br><br>
+        Description <br>
+        <textarea name="description" cols="25" rows="5"></textarea><br><br>
+        <button type='submit'>Create</button>
+    </form>
+</body>
+</html>

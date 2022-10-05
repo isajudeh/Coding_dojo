@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+</head>
+<body>
+    <h1>Edit Show {{ one_show.id }}</h1>
+    <form action='/showsssss/{{one_show.id}}/edit' method='post'>
+        {% csrf_token %}
+        Title <br>
+        <input type='text' name='title' value="{{one_show.title}}"><br><br>
+        Network <br>
+        <input type='text' name='network' value="{{one_show.network}}"><br><br>
+        Release Date <br>
+        <input type='date' name='release_date' value="{{one_show.release_date}}"><br><br>
+        Description <br>
+        <textarea name="description" cols="25" rows="5" >{{one_show.description}}</textarea><br><br>
+        <button type='submit'>Update</button>
+    </form>
+</body>
+</html>
