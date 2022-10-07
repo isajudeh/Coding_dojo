@@ -8,6 +8,15 @@
 </head>
 <body>
     <h1>Add a New Show</h1>
+
+    {% if messages %}
+    <ul class="messages">    
+        {% for message in messages %}    
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     <form action='/showss' method='post'>
         {% csrf_token %}
         Title <br>
@@ -16,7 +25,7 @@
         <input type='text' name='network'><br><br>
         Release Date <br>
         <input type='date' name='release_date'><br><br>
-        Description <br>
+        Description (optinal)<br>
         <textarea name="description" cols="25" rows="5"></textarea><br><br>
         <button type='submit'>Create</button>
     </form>
