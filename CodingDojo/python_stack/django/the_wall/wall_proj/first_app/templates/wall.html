@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Assignment</title>
+</head>
+<body>
+    <form action='/postmessage' method='post'>
+        {% csrf_token %}
+        <div>
+            <label>Post a Massage</label>
+            <br>
+            <textarea name="message" cols="70" rows="4"></textarea>
+        </div>
+        <button type='submit'>Post a Massage</button>
+    </form>
+    {% for message in all_messages %}
+    {{ message.user.first_name }} {{ message.user.last_name }}
+    <p>{{message.message}}</p>
+        {% for comment in message.comment.all %}
+        {{ comment.user.first_name }} {{ comment.user.last_name }}
+        <p>{{comment.comment}}</p>
+        {% endfor %}
+    <form action='/postcomment/{{message.id}}' method='post'>
+        {% csrf_token %}
+        <div>
+            <label>Post a Comment</label>
+            <br>
+            <textarea name="comment" cols="70" rows="4"></textarea>
+        </div>
+        <button type='submit'>Post a Comment</button>
+    </form>
+    {% endfor %}
+</body>
+</html>
