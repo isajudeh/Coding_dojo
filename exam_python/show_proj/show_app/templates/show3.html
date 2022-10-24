@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read</title>
+</head>
+<body>
+    <div style="display: flex; justify-content:space-between ;margin-right: 800px;margin-left: 400px;">
+        <p><a href="/shows">TV Shows</a></p>
+        <p><a href="/logout">logout</a></p>
+    </div>
+    <div style="border: 2px solid black;margin: 30px;margin-right: 750px;padding: 20px;">
+    <h1>TV Show {{ one_show.id }}</h1>
+    <p>Title: {{ one_show.title }}</p>
+    <p>Network: {{ one_show.network }}</p>
+    <p>Release Date: {{ one_show.release_date }}</p>
+    <p>Description: <br> {{ one_show.description }}</p>
+    <p>Posted By: {{ one_show.user.first_name }} {{ one_show.user.last_name }}</p>
+    </div>
+</body>
+</html>

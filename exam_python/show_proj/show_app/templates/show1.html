@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read (All)</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    
+
+    <div style="display: flex; justify-content:space-between;margin-right: 850px">
+        <h1>{{ request.session.rename }} {{ request.session.laname }}!</h1>
+        <br>
+        <p><a href="shows/new">+Create</a></p>
+        <p><a href="/logout">logout</a></p>
+    </div>
+    <h2>All TV Shows</h2>
+    <table style="border: 1px solid black;">
+        <thead>
+
+            <td>Title</td>
+            <td>Network</td>
+            <td>Release Date</td>
+            <td>Actions</td>
+        </thead>
+        {% for show in all_the_shows %}
+        <tr>
+
+            <td>{{ show.title }}</td>
+            <td>{{ show.network }}</td>
+            <td>{{ show.release_date }}</td>
+            {% if request.session.rename == show.user.first_name %}
+            <td><a href="/shows/{{ show.id }}">Show</a>|<a href="/shows/{{ show.id }}/edit">Edit</a>|<a href="/dele/{{ show.id }}">Delete</a></td>
+            {% else %}
+            <td><a href="/shows/{{ show.id }}">Show</a>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
