@@ -2,13 +2,16 @@ public class BankAccount{
     private double checkingBalance;
     private double savingsBalance;
     private static int numberOfAccounts = 0;
-    private static double totalAmount = 0.0;
+    public  double totalAmount ;
 /////////////////////////////////////////////////////////////////////////////
     public BankAccount(double checkingBalance, double savingsBalance){
         this.checkingBalance = checkingBalance;
         this.savingsBalance = savingsBalance;
+        this.totalAmount += this.checkingBalance + this.savingsBalance;
         numberOfAccounts++;
     }
+/////////////////////////////////////////////////////////////////////////////
+
 /////////////////////////////////////////////////////////////////////////////
     public double getCheckingBalance() {
         return checkingBalance;
@@ -23,15 +26,20 @@ public class BankAccount{
         this.savingsBalance = savingsBalance;
     }
 /////////////////////////////////////////////////////////////////////////////
-    public void deposit (String typeOfAccount,double amount){
-        if (typeOfAccount=="Saving"){
-            double a1=(amount + getSavingsBalance());
-            totalAmount = totalAmount + amount;
+    public double deposit (String typeOfAccount,double amount){
+        if (typeOfAccount.equals("Saving")){
+            // double new_saving = (amount + getSavingsBalance());
+            this.savingsBalance += amount;
         }
-        else if (typeOfAccount=="Checking"){
-            double a2=(amount + getCheckingBalance());
-            totalAmount = totalAmount + amount;
+        else if (typeOfAccount.equals("Checking")){
+            // double a2=(amount + getCheckingBalance());
+            this.checkingBalance += amount;
         }
+        return (this.checkingBalance + this.savingsBalance);
+        // return 
+        // System.out.println("the total balance is: " + totalAmount);
+        // System.out.println("the saving balance is: " + a1);
+        // System.out.println("the checking balance is: " + a2);
     }
 /////////////////////////////////////////////////////////////////////////////
     public void withdraw (String typeOfAccount,double amount){
@@ -49,6 +57,10 @@ public class BankAccount{
         else {
             System.out.println("insufficient funds!");
         }
+        // return
+        // System.out.println("the total balance is: "+totalAmount);
+        // System.out.println("the saving balance is: "+a1);
+        // System.out.println("the checking balance is: "+a2);
     }
 /////////////////////////////////////////////////////////////////////////////
     public double display (){
