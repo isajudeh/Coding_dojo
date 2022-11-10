@@ -15,7 +15,7 @@
 <body>
 	<h2>Here is Your Omikuji!</h2>
 	<p>
-	In ${snack} years, you will live in ${city} with ${person} as your roommate, ${hoppy} for a a living. 
+	In <c:out value="${snack}"></c:out> years, you will live in ${city} with ${person} as your roommate, ${hoppy} for a a living. 
 	The next time you see a ${things}, you will have good luck. Also, ${comment}.
 	</p>
 	<br>
