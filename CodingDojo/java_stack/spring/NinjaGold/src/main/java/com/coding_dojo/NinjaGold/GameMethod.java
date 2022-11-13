@@ -33,6 +33,8 @@ public class GameMethod {
 			int randomRange = random.nextInt(max - min) + min;
 			int x = (int)session.getAttribute("gold") + randomRange;
 			session.setAttribute("gold", x);
+			
+
 			System.out.println(session.getAttribute("gold")+" "+randomRange);
 		}
 		else if (lock == "cave") {
