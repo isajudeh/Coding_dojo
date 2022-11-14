@@ -2,19 +2,15 @@ package com.coding_dojo.mvc.services;
 
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.stereotype.Service;
-
 import com.coding_dojo.mvc.models.Book;
 import com.coding_dojo.mvc.repositories.BookRepository;
 
 @Service
-public class BookServices {
-	
+public class BookService {
  // adding the book repository as a dependency
-	private final BookRepository bookRepository;
- 
- public BookServices(BookRepository bookRepository) {
+private final BookRepository bookRepository;
+ public BookService(BookRepository bookRepository) {
      this.bookRepository = bookRepository;
  }
  
@@ -28,30 +24,26 @@ public class BookServices {
      return bookRepository.save(b);
  }
  
+ //Delete a book
+ public void deleteBook(Long id) {
+      bookRepository.deleteById(id);
+ }
+ 
+ //Update a book
+ public Book updateBook(Book b) {
+     return bookRepository.save(b);
+ }
+ 
  // retrieves a book
  public Book findBook(Long id) {
      Optional<Book> optionalBook = bookRepository.findById(id);
      if(optionalBook.isPresent()) {
          return optionalBook.get();
-     } 
-     else {
+     } else {
          return null;
      }
- 	}
-
-public Book updateBook(Book book) {
-		return bookRepository.save( book);
-	}
-
-
-public void deleteBook(Long id) {
-	 Optional<Book> optionalBook = bookRepository.findById(id);
-     if(optionalBook.isPresent()) {
-    	 bookRepository.deleteById(id);
-     	 }
-	}
-
-
-
+ }
+ 
 }
-
+//destroy
+//updateBook
