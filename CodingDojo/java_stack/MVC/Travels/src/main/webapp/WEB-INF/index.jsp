@@ -24,6 +24,7 @@
             <th>Vendor</th>
             <th>Amount</th>
             <th>Actions</th>
+            <th>Delete</th>
         </tr>
     </thead>
     <tbody>
@@ -33,6 +34,8 @@
         <td><c:out value="${oneExpense.vendor}"></c:out></td>
         <td><c:out value="${oneExpense.amount}"></c:out></td>
         <td><a href="/expenses/edit/{oneExpense.id}">edit</a></td>
+        <td><a href="/expense/{id}/delete">Delete</a></td>
+        
         </tr>
     	</c:forEach>
     </tbody>

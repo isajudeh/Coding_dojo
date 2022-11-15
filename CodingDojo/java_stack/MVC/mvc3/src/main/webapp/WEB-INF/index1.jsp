@@ -28,6 +28,8 @@
         <td><c:out value="${oneBook.description}"></c:out></td>
         <td><c:out value="${oneBook.language}"></c:out></td>
         <td><c:out value="${oneBook.numberOfPages}"></c:out></td>
+        <td><a href="/books/${oneBook.id}/delete">Delete</a></td>
+        
         </tr>
     	</c:forEach>
     	

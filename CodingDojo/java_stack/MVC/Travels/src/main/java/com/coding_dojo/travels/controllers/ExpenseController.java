@@ -60,7 +60,12 @@ public class ExpenseController {
 	         return "redirect:/expense";
 	     }
 	 }
-	 
+	 @GetMapping("/expense/{id}/delete")
+	 public String destroy(@PathVariable("id") Long id) {
+		 expenseService.deleteExpense(id);
+	 	return "redirect:/expense";
+	      }
+	  
 
 
 }
