@@ -23,16 +23,16 @@ public class Book {
     private Long id;
     
     @NotNull
-    @Size(min = 5, max = 200)
+    @Size(min = 5, max = 200, message="Language must be at least 5 characters.")
     private String title;
     @NotNull
-    @Size(min = 5, max = 200)
+    @Size(min = 5, max = 200, message="Language must be at least 5 characters.")
     private String description;
     @NotNull
-    @Size(min = 3, max = 40)
+    @Size(min = 3, max = 40, message="Language must be at least 3 characters.")
     private String language;
-    @NotNull
-    @Min(100)
+    @NotNull(message="number of pages must not be blank.")
+    @Min(value=100, message="Pages number must be at least 100 page.")
     private Integer numberOfPages;
     
 ////////////////////////////////////////////////////////////////////////////////

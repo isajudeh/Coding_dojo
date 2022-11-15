@@ -30,8 +30,7 @@ public class BooksApi {
 		 ) {
 	 
      Book book = new Book(title, desc, lang, numOfPages);
-     return bookService.createBook(book);
-     
+     return bookService.createBook(book); 
  }
 //////////////////////////////////////////////////////////////////////////////////
  @RequestMapping("/api/books/{id}")
