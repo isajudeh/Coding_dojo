@@ -11,7 +11,6 @@ public interface ExpenseRepository extends CrudRepository<Expense,Long>{
 	
     List<Expense> findAll();
     List<Expense> findByDescriptionContaining(String search);
-    Long countByTitleContaining(String search);
-    Long deleteByTitleStartingWith(String search);
+
     
 }

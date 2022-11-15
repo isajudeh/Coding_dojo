@@ -2235,3 +2235,234 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: TEXT must b
 2022-11-15 13:42:25,450 [Worker-272: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-15 13:42:25,450 [Worker-272: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-11-15 13:42:25,451 [Worker-272: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 13:53:33,528 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 13:53:33,529 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 13:53:33,533 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 13:53:33,543 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 13:53:33,552 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 13:53:33,552 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 13:53:33,553 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 13:55:33,650 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 13:55:33,650 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 13:55:33,655 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 13:55:33,667 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 13:55:33,678 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 13:55:33,678 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 13:55:33,679 [Worker-277: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 13:57:49,250 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 13:57:49,251 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 13:57:49,256 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 13:57:49,268 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 13:57:49,278 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 13:57:49,278 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 13:57:49,279 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:00:58,016 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:00:58,016 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:00:58,020 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:00:58,032 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:00:58,044 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:00:58,044 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:00:58,044 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:02:04,133 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:02:04,134 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:02:04,138 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:02:04,149 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:02:04,160 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:02:04,160 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:02:04,161 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:03:07,070 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:03:07,071 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:03:07,075 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:03:07,088 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:03:07,099 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:03:07,099 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:03:07,099 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:03:33,516 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:03:33,517 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:03:33,521 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:03:33,531 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:03:33,542 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:03:33,542 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:03:33,542 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:06:19,038 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:06:19,039 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:06:19,043 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:06:19,057 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:06:19,067 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:06:19,067 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:06:19,068 [Worker-295: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:08:34,939 [Worker-294: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:08:34,939 [Worker-294: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:08:34,944 [Worker-294: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:08:34,955 [Worker-294: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:08:34,966 [Worker-294: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:08:34,966 [Worker-294: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:08:34,967 [Worker-294: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:09:53,317 [Worker-300: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:09:53,317 [Worker-300: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:09:53,318 [Worker-300: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:09:53,319 [Worker-300: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:09:53,327 [Worker-300: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:09:53,327 [Worker-300: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:09:53,327 [Worker-300: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:11:32,759 [Worker-301: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:11:32,760 [Worker-301: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:11:32,764 [Worker-301: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:11:32,777 [Worker-301: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:11:32,789 [Worker-301: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:11:32,789 [Worker-301: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:11:32,790 [Worker-301: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:12:16,219 [Worker-304: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:12:16,219 [Worker-304: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:12:16,224 [Worker-304: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:12:16,236 [Worker-304: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:12:16,247 [Worker-304: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:12:16,247 [Worker-304: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:12:16,248 [Worker-304: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:14:09,455 [Worker-307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:14:09,457 [Worker-307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:14:09,462 [Worker-307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:14:09,475 [Worker-307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:14:09,497 [Worker-307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:14:09,497 [Worker-307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:14:09,498 [Worker-307: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:15:32,199 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:15:32,199 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:15:32,204 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:15:32,214 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:15:32,222 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:15:32,222 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:15:32,223 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:20:59,239 [Worker-311: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:20:59,240 [Worker-311: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:20:59,244 [Worker-311: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:20:59,256 [Worker-311: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:20:59,267 [Worker-311: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:20:59,267 [Worker-311: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:20:59,268 [Worker-311: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:25:01,770 [Worker-319: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:25:01,771 [Worker-319: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:25:01,775 [Worker-319: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:25:01,786 [Worker-319: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:25:01,798 [Worker-319: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:25:01,798 [Worker-319: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:25:01,798 [Worker-319: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:29:45,219 [Worker-327: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:29:45,219 [Worker-327: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:29:45,221 [Worker-327: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:29:45,221 [Worker-327: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:29:45,233 [Worker-327: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:29:45,233 [Worker-327: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:29:45,233 [Worker-327: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:38:54,952 [Worker-331: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:38:54,952 [Worker-331: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:38:54,957 [Worker-331: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:38:54,975 [Worker-331: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:38:54,988 [Worker-331: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:38:54,988 [Worker-331: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:38:54,988 [Worker-331: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:38:57,045 [Worker-335: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:38:57,046 [Worker-335: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:38:57,047 [Worker-335: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:38:57,048 [Worker-335: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:38:57,056 [Worker-335: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:38:57,056 [Worker-335: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:38:57,057 [Worker-335: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 14:55:24,715 [Worker-336: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:55:24,716 [Worker-336: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:55:24,720 [Worker-336: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 14:55:24,747 [Worker-336: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 14:55:24,759 [Worker-336: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 14:55:24,759 [Worker-336: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 14:55:24,760 [Worker-336: Launching mvc3 - Mvc3Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 15:20:54,104 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 15:20:54,178 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 15:20:54,179 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 15:20:54,180 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 15:20:54,191 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 15:20:54,191 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 15:20:54,192 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 15:24:17,997 [Worker-366: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 15:24:17,997 [Worker-366: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 15:24:18,001 [Worker-366: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 15:24:18,037 [Worker-366: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 15:24:18,048 [Worker-366: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 15:24:18,049 [Worker-366: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 15:24:18,049 [Worker-366: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 15:24:25,664 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 15:24:25,664 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 15:24:25,669 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 15:24:25,707 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 15:24:25,718 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 15:24:25,718 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 15:24:25,719 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\mvc3\src\test\resources
+2022-11-15 15:24:46,357 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 15:24:46,358 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 15:24:46,362 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 15:24:46,405 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 15:24:46,416 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 15:24:46,416 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 15:24:46,416 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:07:03,145 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:07:03,145 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:07:03,146 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:07:03,147 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:07:03,156 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:07:03,156 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:07:03,156 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:11:03,878 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:11:03,878 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:11:03,879 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:11:03,880 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:11:03,890 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:11:03,890 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:11:03,891 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:19:46,894 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:19:46,894 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:19:46,896 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:19:46,896 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:19:46,907 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:19:46,907 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:19:46,908 [Worker-385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:19:54,770 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:19:54,771 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:19:54,775 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 16:19:54,786 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:19:54,796 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:19:54,796 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:19:54,796 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:30:50,034 [Worker-408: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:30:50,034 [Worker-408: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:30:50,038 [Worker-408: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 16:30:50,049 [Worker-408: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:30:50,057 [Worker-408: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:30:50,057 [Worker-408: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:30:50,057 [Worker-408: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:30:58,022 [Worker-396: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:30:58,023 [Worker-396: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:30:58,023 [Worker-396: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:30:58,024 [Worker-396: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:30:58,032 [Worker-396: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:30:58,032 [Worker-396: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:30:58,033 [Worker-396: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:38:31,776 [Worker-413: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:38:31,777 [Worker-413: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:38:31,782 [Worker-413: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 16:38:31,795 [Worker-413: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:38:31,807 [Worker-413: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:38:31,807 [Worker-413: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:38:31,808 [Worker-413: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:40:09,513 [Worker-411: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:40:09,514 [Worker-411: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:40:09,518 [Worker-411: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-15 16:40:09,531 [Worker-411: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:40:09,542 [Worker-411: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:40:09,542 [Worker-411: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:40:09,542 [Worker-411: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources
+2022-11-15 16:43:15,480 [Worker-421: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:43:15,481 [Worker-421: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:43:15,481 [Worker-421: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:43:15,482 [Worker-421: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-15 16:43:15,491 [Worker-421: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-15 16:43:15,491 [Worker-421: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-15 16:43:15,491 [Worker-421: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\Travels\src\test\resources

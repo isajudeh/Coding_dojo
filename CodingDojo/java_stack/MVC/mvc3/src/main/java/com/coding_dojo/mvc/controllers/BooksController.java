@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.coding_dojo.mvc.models.Book;
@@ -50,15 +49,16 @@ public class BooksController {
  public String edit(@PathVariable("id") Long id, Model model) {
      Book book = bookService.findBook(id);
      model.addAttribute("book", book);
-     return "/books/edit.jsp";
+     return "/edit.jsp";
  }
- @PutMapping("/books/{id}")
+ 
+ @PostMapping("/books/{id}")
  public String update(@Valid @ModelAttribute("book") Book book, BindingResult result) {
      if (result.hasErrors()) {
-         return "/books/edit.jsp";
+         return "edit.jsp";
      } else {
          bookService.updateBook(book);
-         return "redirect:/books";
+         return "redirect:/book";
      }
  }
 }

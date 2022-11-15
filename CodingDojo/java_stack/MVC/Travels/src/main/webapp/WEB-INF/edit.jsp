@@ -16,30 +16,9 @@
 <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<h1>Save Travels</h1>
-<table>
-    <thead>
-        <tr>
-            <th>Expense</th>
-            <th>Vendor</th>
-            <th>Amount</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        <c:forEach var="oneExpense" items="${Expenses}">
-        <tr>
-        <td><c:out value="${oneExpense.name}"></c:out></td>
-        <td><c:out value="${oneExpense.vendor}"></c:out></td>
-        <td><c:out value="${oneExpense.amount}"></c:out></td>
-        <td><a href="/expenses/edit/{oneExpense.id}">edit</a></td>
-        </tr>
-    	</c:forEach>
-    </tbody>
-</table>
-<hr>
-<h2>Add an Expense</h2>
-<form:form action="/expense1" method="post" modelAttribute="Expenses">
+<h2>Edit Expense</h2>
+<form:form action="expenses/edit/{id}" method="post" modelAttribute="Expenses">
+<input type="hidden" name="_method" value="put">
     <p>
         <form:label path="name">Expense Name:</form:label>
         <form:errors path="name"/>
