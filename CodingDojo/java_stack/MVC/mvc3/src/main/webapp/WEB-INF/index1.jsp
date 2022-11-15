@@ -20,7 +20,6 @@
     </thead>
     
     <tbody>
-    	
         <c:forEach var="oneBook" items="${books}">
         <tr>
         <td><c:out value="${oneBook.id}"></c:out></td>
@@ -29,10 +28,8 @@
         <td><c:out value="${oneBook.language}"></c:out></td>
         <td><c:out value="${oneBook.numberOfPages}"></c:out></td>
         <td><a href="/books/${oneBook.id}/delete">Delete</a></td>
-        
         </tr>
     	</c:forEach>
-    	
     </tbody>
 </table>
 

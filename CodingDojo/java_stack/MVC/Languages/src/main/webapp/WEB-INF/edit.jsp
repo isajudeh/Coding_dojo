@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Edit Page</title>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <script type="text/javascript" src="js/app.js"></script>
 <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
@@ -15,30 +15,25 @@
 <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<h1>New Book</h1>
-<form:form action="/books" method="post" modelAttribute="book">
+
+<form:form action="/lang/${language.id}" method="post" modelAttribute="language">
+
     <p>
-        <form:label path="title">Title</form:label>
-        <form:errors path="title"/>
-        <form:input path="title"/>
+        <form:label path="name">Name</form:label>
+        <form:errors path="name"/>
+        <form:input path="name"/>
     </p>
     <p>
-        <form:label path="description">Description</form:label>
-        <form:errors path="description"/>
-        <form:textarea path="description"/>
+        <form:label path="creator">Creator</form:label>
+        <form:errors path="creator"/>
+        <form:textarea path="creator"/>
     </p>
     <p>
-        <form:label path="language">Language</form:label>
-        <form:errors path="language"/>
-        <form:input path="language"/>
-    </p>
-    <p>
-        <form:label path="numberOfPages">Pages</form:label>
-        <form:errors path="numberOfPages"/>     
-        <form:input type="number" path="numberOfPages"/>
+        <form:label path="version">Version</form:label>
+        <form:errors path="version"/>     
+        <form:input type="number" path="version"/>
     </p>    
     <input type="submit" value="Submit"/>
 </form:form>
-   
 </body>
 </html>
