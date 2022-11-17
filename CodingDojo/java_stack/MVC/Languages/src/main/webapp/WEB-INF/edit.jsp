@@ -17,7 +17,7 @@
 <body>
 
 <form:form action="/lang/${language.id}" method="post" modelAttribute="language">
-
+<input type="hidden" name="_method" value="put">
     <p>
         <form:label path="name">Name</form:label>
         <form:errors path="name"/>

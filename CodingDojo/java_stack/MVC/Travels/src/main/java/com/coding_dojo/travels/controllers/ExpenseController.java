@@ -65,7 +65,5 @@ public class ExpenseController {
 		 expenseService.deleteExpense(id);
 	 	return "redirect:/expense";
 	      }
-	  
-
-
+	 
 }

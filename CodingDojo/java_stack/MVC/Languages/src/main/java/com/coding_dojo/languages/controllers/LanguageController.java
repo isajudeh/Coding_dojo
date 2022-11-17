@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 
 import com.coding_dojo.languages.models.language;
 import com.coding_dojo.languages.services.LanguageService;
@@ -43,15 +44,28 @@ public String edit(@PathVariable("id") Long id, Model model) {
     model.addAttribute("language", lang);
     return "/edit.jsp";
 }
-@PostMapping("/lang/{id}")
-public String update(@Valid @ModelAttribute("language") language language, BindingResult result) {
-    if (result.hasErrors()) {
-        return "/dashboard.jsp";
-    } else {
-    	languageService.updateLanguage(language);
-        return "redirect:/languages";
-    }
+@PutMapping("/lang/{id}")
+public String update(
+		@PathVariable("id") Long id, 
+		Model model, 
+		@Valid @ModelAttribute("language") language language, 
+		BindingResult result) {
+	if(result.hasErrors()) {
+		return "edit.jsp";
+	}else {
+		languageService.updateLanguage(language);
+		return "redirect:/languages";
+	}
 }
+//@PostMapping("/lang/{id}")
+//public String update(@Valid @ModelAttribute("language") language language, BindingResult result) {
+//    if (result.hasErrors()) {
+//        return "/dashboard.jsp";
+//    } else {
+//    	languageService.updateLanguage(language);
+//        return "redirect:/languages";
+//    }
+//}
 //@PostMapping("/books/{id}")
 //public String update(@Valid @ModelAttribute("book") Book book, BindingResult result) {
 //    if (result.hasErrors()) {
