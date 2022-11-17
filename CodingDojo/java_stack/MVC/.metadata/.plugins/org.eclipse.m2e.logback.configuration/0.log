@@ -4498,3 +4498,6 @@ Caused by: java.lang.Exception: Resource '/relationships/pom.xml' does not exist
 2022-11-17 14:16:51,461 [Worker-1357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-11-17 14:16:51,462 [Worker-1357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-11-17 14:16:51,463 [Worker-1357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-17 14:16:51,474 [Worker-1357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-17 14:16:51,474 [Worker-1357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-17 14:16:51,474 [Worker-1357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\LENOVO\Desktop\Coding_dojo\CodingDojo\java_stack\MVC\dojos\src\test\resources
