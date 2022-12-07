@@ -73,5 +73,5 @@ public class MainController {
 	    return "/ShowNinjas.jsp";
 	}
 /////////////////////////////////////////////////////////////	
-	
+
 }
