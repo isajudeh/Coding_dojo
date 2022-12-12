@@ -3,6 +3,8 @@ import List from './components/List';
 import PersonCard from './components/PersonCard';
 import MyNewComponent from './components/MyNewComponent';
 import PersonCards from './components/PersonCards';
+import UserForm from './components/UserForm';
+
 import React from 'react';
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
             <p>This is a child</p>
             <p>This is another child</p>
             <p>This is even another child</p>
-      </MyNewComponent> */}
+      </MyNewComponent>
       <PersonCards firstName="ZOZO" lastName="DODO" age= {31} hairColor="Black" 
-                   firstName1="LOLO" lastName1="MOMO" age1= {21} hairColor1="Yellow"/>
+                   firstName1="LOLO" lastName1="MOMO" age1= {21} hairColor1="Yellow"/> */}
+                   
+      <UserForm />
     </div>
   );
 }
